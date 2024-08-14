@@ -1,0 +1,18 @@
+.condition-heading{
+    padding-top: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Open sans";
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.condition-info{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.condition-image{
+    height: 500px;
+}

@@ -1,0 +1,11 @@
+.service-text{
+    background-color: #E4EEFF;
+    text-align: center;
+    width: 480px;
+    height: 150px;
+}
+
+.service-heading{
+    text-transform: uppercase;
+    padding-top: 10px;
+}

@@ -1,0 +1,15 @@
+.help{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.help-heading {
+    padding-top: 80px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    text-align: center;
+    font-size: 40px;
+}
+
