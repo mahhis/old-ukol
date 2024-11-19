@@ -13,11 +13,11 @@ export default function Button({ text }) {
     }
     try {
       // Redirect to the order page
-      navigate("/order");  // React Router navigation (SPA)
+      window.location.href = "https://test.ukol.kz/order"; 
     } catch (error) {
       console.error('Error navigating:', error);
       // Fallback to the full URL if React Router navigation fails
-      window.location.href = "https://test.ukol.kz/order"; // External URL fallback
+    
     }
   };
 
