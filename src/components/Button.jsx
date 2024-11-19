@@ -12,11 +12,12 @@ export default function Button({ text }) {
       return;
     }
     try {
-      navigate("/order");
-    } catch {
-      // Fallback to WhatsApp if navigation fails
-      window.location.href =
-        "https://api.whatsapp.com/send?phone=77027776776&text=Здравствуйте!%20Хочу%20вызвать%20медсестру%20на%20дом.";
+      // Redirect to the order page
+      navigate("/order");  // React Router navigation (SPA)
+    } catch (error) {
+      console.error('Error navigating:', error);
+      // Fallback to the full URL if React Router navigation fails
+      window.location.href = "https://test.ukol.kz/order"; // External URL fallback
     }
   };
 
