@@ -1,8 +1,7 @@
-import { useNavigate, useLocation } from "react-router-dom";
+import {  useLocation } from "react-router-dom";
 import "/src/css/Button.css";
 
 export default function Button({ text }) {
-  const navigate = useNavigate();
   const location = useLocation();
 
   const handleClick = () => {
