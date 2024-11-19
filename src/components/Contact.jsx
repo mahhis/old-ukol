@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import '/src/css/Contact.css';
 import contactImg from '/src/assets/third.png';
 import phoneIcon from '/src/assets/phone-icon.png';
 import instaIcon from '/src/assets/instagram-icon.png';
 import quoteImg from '/src/assets/quote.png';
-import logo from '/src/assets/logo.png';
 
 export default function Contact() {
   const [isPrivacyModalOpen, setIsPrivacyModalOpen] = useState(false);

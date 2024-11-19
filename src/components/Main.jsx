@@ -26,7 +26,7 @@ export default function Main() {
                   Стаж наших специалистов свыше 7 лет. <br/>  
                   Доверьте свое здоровье настоящим <br/> профессионалам, вам не нужно никуда <br/> ехать!
                 </p>
-                <Button text = "нажмите для консультации" />
+                <Button text = "нажмите для заказа" />
               </div>
 
               <img className="main-img" src={mainImg} alt="main-image" />

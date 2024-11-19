@@ -4,6 +4,7 @@ import Help from "./components/Help";
 import Contact from "./components/Contact";
 import Certificate from "./components/Certificate";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import FAQ from "./components/FAQ";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
                 <Main />
                 <Help />
                 <Condition />
+                <FAQ/>
                 <Contact />
               </div>
             }
