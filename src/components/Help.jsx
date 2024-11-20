@@ -1,5 +1,4 @@
 import "/src/css/Help.css"
-import ButtonWA from "./ButtonWA"
 import SliderBox from "./SliderBox";
 
 export default function Help() {
@@ -11,7 +10,7 @@ export default function Help() {
 
             <SliderBox />
 
-            <ButtonWA text="бесплатная консультация" />
+            {/* <ButtonWA text="бесплатная консультация" /> */}
         </section>
     );
 }

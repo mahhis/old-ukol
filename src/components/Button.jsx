@@ -1,6 +1,7 @@
 import {  useLocation } from "react-router-dom";
 import "/src/css/Button.css";
 
+// eslint-disable-next-line react/prop-types
 export default function Button({ text }) {
   const location = useLocation();
 
