@@ -6,12 +6,6 @@ import MobileNav from "./MobileNav"
 
 export default function Main() {
 
-  function scrollSection(name){
-    document.getElementById(name).scrollIntoView({
-      behavior:"smooth"
-    })
-  }
-
   return (
 
     <section>
@@ -26,7 +20,7 @@ export default function Main() {
                   Стаж наших специалистов свыше 7 лет. <br/>  
                   Доверьте свое здоровье настоящим <br/> профессионалам, вам не нужно никуда <br/> ехать!
                 </p>
-                <Button text = "нажмите для заказа" />
+                <Button text = "нажмите на меня для заказа" />
               </div>
 
               <img className="main-img" src={mainImg} alt="main-image" />

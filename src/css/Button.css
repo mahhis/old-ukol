@@ -7,13 +7,14 @@
     align-items: center;
     justify-content: center;
     gap : 20px;
-    background-color: #00BF63;
-    border: none;
+    background-color: #88e788;
+    border: 3px solid black;
+    border-radius: 140px;
     transition: all 0.3s ease;
 }
 
 .main-button:hover{
-    background-color: #008f4a;
+    background-color: #88e788;
     transform: scale(1.05);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 54px 55px, rgba(0, 0, 0, 0.15) 0px -12px 30px, rgba(0, 0, 0, 0.15) 0px 4px 6px, rgba(0, 0, 0, 0.20) 0px 12px 13px, rgba(0, 0, 0, 0.11) 0px -3px 5px;
 }
@@ -25,6 +26,6 @@
 .button-text{
     font-size: 15px;
     text-transform: uppercase;
-    color: white;
+    color: #111;
     font-family: "Montserrat";
 }

@@ -1,8 +1,9 @@
 .service-text{
-    background-color: #E4EEFF;
+    background-color: #88e788;
     text-align: center;
     width: 480px;
     height: 150px;
+    border-radius: 10px;
 }
 
 .service-heading{
